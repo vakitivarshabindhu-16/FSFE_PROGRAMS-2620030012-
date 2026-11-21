@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+         .box {
+            width: 120px;
+            height: 120px;
+            background-color: lightpink;
+            
+            animation-name: moveBox;
+            animation-duration: 5s;
+            animation-iteration-count: 2;
+         }
+         @keyframes moveBox {
+            from {
+                transform: translate(200px);
+            }
+            to {
+                transform: translate(800px);
+            }
+         }
+
+        </style>
+    </head>
+    <body>
+        <div class="box"></div>
+    </body>
+</html>

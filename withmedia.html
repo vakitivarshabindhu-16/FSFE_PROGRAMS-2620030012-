@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>Flexbox Example</title>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: row;
+                gap: 20px;
+                justify-content: center;
+                align-items: center;
+                background-color: lightgray;
+                padding: 20px;
+            }
+            .card {
+                width: 180px;
+                padding: 20px;
+                background-color: lightblue;
+                border: 2px solid blue;
+                text-align: center;
+            }
+
+            @media (max-width: 900px) {
+                .box {
+                    width: 100%;
+                    background-color: lightgreen;
+                } }
+                @media (max-width: 720px) {
+                .box {
+                    width: 100%;
+                    background-color: blue;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <h1>ABC College Department</h1>
+    <div class="container">
+        <div class="card">
+            <h2>CSE</h2>
+            <p>Computer Science</p>
+        </div>
+        <div class="card">
+            <h2>ECE</h2>
+            <p>Electronics</p>
+        </div>
+        <div class="card">
+            <h2>EEE</h2>
+            <p>Electrical</p>
+        </div>
+    </div>
+
+        
+    </body>
+</html>

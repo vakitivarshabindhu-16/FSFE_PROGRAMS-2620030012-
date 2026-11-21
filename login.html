@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .login {
+            width: 50%;
+            background-color: white;
+            text-align: center;
+            padding: 50px;
+            box-sizing: border-box;
+        }
+
+        .background {
+            width: 50%;
+            background: linear-gradient(to bottom, #eee9df, #b9e4e8);
+        }
+
+        h2 {
+            margin-top: 40px;
+            color: #333;
+        }
+
+        .input {
+            width: 70%;
+            padding: 15px;
+            margin: 12px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .options {
+            width: 75%;
+            margin: 15px auto;
+            display: flex;
+            justify-content: space-between;
+            font-size: 13px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #3995d8;
+        }
+
+        .loginbtn {
+            background-color: #3985ed;
+            color: white;
+            padding: 14px 35px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .social {
+            width: 70%;
+            padding: 14px;
+            margin: 8px;
+            border: none;
+            color: white;
+            font-size: 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .facebook {
+            background-color: #294c91;
+        }
+
+        .twitter {
+            background-color: #16a9dc;
+        }
+
+        .google {
+            background-color: #ed3838;
+        }
+
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="login">
+
+        <h2>Login</h2>
+
+        <br>
+
+        <form>
+
+            <input class="input" type="text"
+            placeholder="👤  Username or email" required>
+
+            <br>
+
+            <input class="input" type="password"
+            placeholder="🔑  Password" required>
+
+            <br><br>
+
+            <div class="options">
+                <label>
+                    <input type="checkbox">
+                    Remember me
+                </label>
+
+                <button class="loginbtn" type="submit">
+                    LOGIN
+                </button>
+            </div>
+
+            <div class="options">
+                <a href="#">Register now</a>
+                <a href="#">Forgot password?</a>
+            </div>
+
+            <br>
+
+            <p>----------- OR -----------</p>
+
+            <br>
+
+            <button type="button" class="social facebook">
+                f &nbsp; LOGIN WITH FACEBOOK
+            </button>
+
+            <br>
+
+            <button type="button" class="social twitter">
+                ♥ &nbsp; LOGIN WITH TWITTER
+            </button>
+
+            <br>
+
+            <button type="button" class="social google">
+                G &nbsp; LOGIN WITH GOOGLE
+            </button>
+
+        </form>
+
+    </div>
+
+    <div class="background">
+    </div>
+
+</div>
+
+</body>
+</html>
